@@ -14,6 +14,7 @@
 		A46B164D2AACD91A00135A33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A46B164C2AACD91A00135A33 /* Assets.xcassets */; };
 		A46B16502AACD91A00135A33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A46B164E2AACD91A00135A33 /* LaunchScreen.storyboard */; };
 		A46B16582AADBD7600135A33 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A46B16572AADBD7600135A33 /* GoogleService-Info.plist */; };
+		A46B165A2AAF64E000135A33 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46B16592AAF64E000135A33 /* HomePageViewController.swift */; };
 		B08C8A979BFA54CF2FF0AA4E /* Pods_TestApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85914EC090C1131C316ED28B /* Pods_TestApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +29,7 @@
 		A46B164F2AACD91A00135A33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A46B16512AACD91A00135A33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A46B16572AADBD7600135A33 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A46B16592AAF64E000135A33 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
 		E3A8233ECE253522FDB3E19E /* Pods-TestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestApp.release.xcconfig"; path = "Target Support Files/Pods-TestApp/Pods-TestApp.release.xcconfig"; sourceTree = "<group>"; };
 		FB1FDAEC91889CA37DDF878A /* Pods-TestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestApp.debug.xcconfig"; path = "Target Support Files/Pods-TestApp/Pods-TestApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -68,6 +70,7 @@
 				A46B16432AACD91900135A33 /* AppDelegate.swift */,
 				A46B16452AACD91900135A33 /* SceneDelegate.swift */,
 				A46B16472AACD91900135A33 /* ViewController.swift */,
+				A46B16592AAF64E000135A33 /* HomePageViewController.swift */,
 				A46B16492AACD91900135A33 /* Main.storyboard */,
 				A46B164C2AACD91A00135A33 /* Assets.xcassets */,
 				A46B164E2AACD91A00135A33 /* LaunchScreen.storyboard */,
@@ -83,7 +86,6 @@
 				FB1FDAEC91889CA37DDF878A /* Pods-TestApp.debug.xcconfig */,
 				E3A8233ECE253522FDB3E19E /* Pods-TestApp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -211,6 +213,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A46B165A2AAF64E000135A33 /* HomePageViewController.swift in Sources */,
 				A46B16482AACD91900135A33 /* ViewController.swift in Sources */,
 				A46B16442AACD91900135A33 /* AppDelegate.swift in Sources */,
 				A46B16462AACD91900135A33 /* SceneDelegate.swift in Sources */,
